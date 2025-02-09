@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    margin: 0;
+    font-family: "sans-serif";
+}
+
+body {
+    height: 100vh;
+}
+
+.bg-container {
+    background-color: #246db6;
+    height: 100vh;
+    
+}
+
+.guess-game-img {
+    width: 100%;
+}
+
+.game-description {
+    color: #323f4b;
+
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.guess-bg-container {
+    background-color: #246db6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.guess-heading {
+    color: white;
+
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.guess-number-image {
+    width: 50px;
+}
+
+.user-input {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    width: 300px;
+    padding: 10px;
+    border: 0px solid #BF29E9;
+    background-color: #DB77F7;
+    border-radius: 5px;
+}
+
+.user-input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.user-input::placeholder {
+    font-size: 25px;
+    color: #33308D;
+    font-style: italic;
+}
+
+.game-result {
+    color: #ffffff;
+
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.check-guess {
+    width: 170px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #C3C2DE;
+    border: 0px solid #C3C2DE;
+    color: #33308D;
+}
+
+.check-guess:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.check-guess:hover {
+    border: 1px solid #C3C2DE;
+    background-color: #EFC3CA;
+}
