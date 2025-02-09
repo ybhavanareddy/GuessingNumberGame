@@ -24,12 +24,11 @@ A fun and interactive *Guess the Number* game built using *HTML, CSS (Bootstrap)
 
 🔗 Live Demo
 
-Play the Game 
+Play the Game here: https://ybhavanareddy.github.io/GuessingNumberGame/
 
 👨‍💻 Contributing
 
 Feel free to contribute by reporting issues or suggesting improvements!
-
 
 
 📜 License
